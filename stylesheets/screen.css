@@ -67,3 +67,53 @@ main {
   width: 840px;
   margin: 0 auto;
 }
+
+h1 {
+  font-size: 51px;
+  font-size: 2.83333rem;
+  line-height: 56px;
+  line-height: 3.11111rem;
+  margin-top: 28px;
+  margin-top: 1.55556rem;
+  margin-bottom: 28px;
+  margin-bottom: 1.55556rem;
+}
+h1.display {
+  font-size: 72px;
+  font-size: 4rem;
+  line-height: 84px;
+  line-height: 4.66667rem;
+  margin-top: 56px;
+  margin-top: 3.11111rem;
+  margin-bottom: 56px;
+  margin-bottom: 3.11111rem;
+}
+
+h2 {
+  font-size: 36px;
+  font-size: 2rem;
+  line-height: 42px;
+  line-height: 2.33333rem;
+  margin-top: 21px;
+  margin-top: 1.16667rem;
+  margin-bottom: 21px;
+  margin-bottom: 1.16667rem;
+}
+
+h3 {
+  font-size: 25px;
+  font-size: 1.38889rem;
+  line-height: 42px;
+  line-height: 2.33333rem;
+  margin-top: 14px;
+  margin-top: 0.77778rem;
+  margin-bottom: 14px;
+  margin-bottom: 0.77778rem;
+}
+
+p {
+  margin-top: 14px;
+  margin-top: 0.77778rem;
+  margin-bottom: 14px;
+  margin-bottom: 0.77778rem;
+}

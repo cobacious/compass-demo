@@ -11,9 +11,37 @@ $base-line-height: 28px;
 $rhythm-unit: "rem";
 $round-to-nearest-half-line: true;
 
+$heading-display: 72px;
+$heading-priority-a: 51px;
+$heading-priority-b: 36px;
+$heading-priority-c: 25px;
+
 @include establish-baseline;
 
 main {
   width: 840px;
   margin: 0 auto;
+}
+
+h1 {
+  @include adjust-font-size-to($heading-priority-a);
+  @include rhythm-margins;
+  &.display {
+    @include adjust-font-size-to($heading-display);
+    @include rhythm-margins(2);
+  }
+}
+
+h2 {
+  @include adjust-font-size-to($heading-priority-b);
+  @include rhythm-margins(.75);
+}
+
+h3 {
+  @include adjust-font-size-to($heading-priority-c);
+  @include rhythm-margins(.5);
+}
+
+p {
+  @include rhythm-margins(.5);
 }
