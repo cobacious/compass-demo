@@ -58,6 +58,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+html {
+  font-size: 112.5%;
+  line-height: 1.55556em;
+}
+
 main {
   width: 840px;
   margin: 0 auto;
