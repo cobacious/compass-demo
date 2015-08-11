@@ -23,6 +23,10 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  @include trailer(4);
+}
+
 main {
   width: 840px;
   margin: 0 auto;
@@ -49,4 +53,9 @@ h3 {
 
 p {
   @include rhythm-margins(.5);
+  &.stand-first {
+    @include adjust-font-size-to($heading-priority-c, 1.25);
+    @include trailer(2);
+    @include apply-side-rhythm-border(left, 3px, 1.25);
+  }
 }

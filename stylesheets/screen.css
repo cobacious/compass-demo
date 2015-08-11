@@ -68,6 +68,11 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  margin-bottom: 112px;
+  margin-bottom: 6.22222rem;
+}
+
 main {
   width: 840px;
   margin: 0 auto;
@@ -121,4 +126,17 @@ p {
   margin-top: 0.77778rem;
   margin-bottom: 14px;
   margin-bottom: 0.77778rem;
+}
+p.stand-first {
+  font-size: 25px;
+  font-size: 1.38889rem;
+  line-height: 35px;
+  line-height: 1.94444rem;
+  margin-bottom: 56px;
+  margin-bottom: 3.11111rem;
+  border-left-width: 3px;
+  border-left-width: 0.16667rem;
+  border-left-style: solid;
+  padding-left: 32px;
+  padding-left: 1.77778rem;
 }
