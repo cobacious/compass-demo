@@ -5,6 +5,7 @@
 
 @import "compass/reset";
 @import "compass/typography/vertical_rhythm";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 $base-font-size: 18px;
 $base-line-height: 28px;
@@ -17,6 +18,10 @@ $heading-priority-b: 36px;
 $heading-priority-c: 25px;
 
 @include establish-baseline;
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
 
 main {
   width: 840px;
